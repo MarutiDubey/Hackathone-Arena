@@ -70,7 +70,7 @@ export default function GameLayout({ children }: GameLayoutProps) {
             <Terminal className="h-4 w-4" />
           </div>
           <span className="hidden text-sm font-black tracking-tight text-neutral-900 sm:block group-hover:text-neutral-700 transition-colors duration-150">
-            HACKATHON SIM
+            HACKATHON ARENA
           </span>
         </Link>
 

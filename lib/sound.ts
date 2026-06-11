@@ -1,5 +1,5 @@
 /**
- * @fileoverview Synthesized Web Audio API Sound System for The Hackathon Simulator.
+ * @fileoverview Synthesized Web Audio API Sound System for The Hackathon Arena.
  * Creates premium, muted tactile retro-futuristic audio ticks, chimes, and chords
  * without requiring local or external MP3 assets.
  *

@@ -1,5 +1,5 @@
 /**
- * @fileoverview Centralized security utilities for the Hackathon Simulator.
+ * @fileoverview Centralized security utilities for the Hackathon Arena.
  * Implements input validation, XSS text sanitizers, prompt injection defense,
  * payload size checks, and safe error boundaries.
  *

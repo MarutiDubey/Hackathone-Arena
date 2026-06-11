@@ -6,7 +6,7 @@ import { useGameStore } from "@/store/gameStore";
 import ResultScreen from "@/components/game/ResultScreen";
 
 /**
- * Results Page — The Hackathon Simulator
+ * Results Page — The Hackathon Arena
  *
  * Displays the final results after the hackathon simulation is complete.
  * Shows score breakdown, judge feedback, and options to play again.

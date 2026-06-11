@@ -1,5 +1,5 @@
 /**
- * @fileoverview Procedural Startup PRD Generator for The Hackathon Simulator.
+ * @fileoverview Procedural Startup PRD Generator for The Hackathon Arena.
  * Dynamically compiles comprehensive, realistic startup product requirements
  * based on all player decisions, final score, grade, archetype, and chaos events.
  *

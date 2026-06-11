@@ -1,5 +1,5 @@
 /**
- * @file Scoring engine for The Hackathon Simulator
+ * @file Scoring engine for The Hackathon Arena
  * @description Calculates scores, generates judge feedback, and evaluates
  * tech synergies and time bonuses. Currently uses placeholder logic
  * with TODO markers for full gameplay implementation.

@@ -438,8 +438,8 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 <div align="center">
 
-### Built with care by the Hackathon Simulator Team
+### Built with care by the Hackathon Arena Team
 
-**[Back to Top](#the-hackathon-simulator)**
+**[Back to Top](#hackathon-arena)**
 
 </div>

@@ -1,5 +1,5 @@
 /**
- * @file Core type definitions for The Hackathon Simulator
+ * @file Core type definitions for The Hackathon Arena
  * @description Defines all TypeScript interfaces and types used throughout the game,
  * including game phases, entities (problems, judges, tech items, features),
  * scoring structures, events, and the central game state.

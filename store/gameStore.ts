@@ -1,5 +1,5 @@
 /**
- * @fileoverview Zustand store for The Hackathon Simulator game state.
+ * @fileoverview Zustand store for The Hackathon Arena game state.
  *
  * Implements exactly 5 logical slices composed into a single unified store:
  * 1. coreSlice: Stage state machine, difficulty setting, drag-drop arrays, and navigation.

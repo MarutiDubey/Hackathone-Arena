@@ -304,7 +304,7 @@ Your task is to generate a professional Product Requirements Document (PRD) for 
 IMPORTANT:
 This is NOT a generic PRD generator.
 
-The PRD must be deeply personalized using the complete Hackathon Simulator run.
+The PRD must be deeply personalized using the complete Hackathon Arena run.
 
 You are given:
 1. The original problem statement
@@ -328,7 +328,7 @@ Your objective is to transform the player's hackathon submission into a realisti
 
 # INPUT DATA
 
-Here is the exact JSON object from the Hackathon Simulator run:
+Here is the exact JSON object from the Hackathon Arena run:
 
 ${JSON.stringify(inputData, null, 2)}
 
@@ -615,7 +615,7 @@ Include:
 
 ### Business Risks
 
-### Lessons From Hackathon Simulation
+### Lessons From Hackathon Arenaulation
 
 ---
 

@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Inter, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/next";
+import { CustomCursor } from "@/components/ui/CustomCursor";
+import { AnimatedBackground } from "@/components/ui/AnimatedBackground";
 
 const inter = Inter({
   variable: "--font-sans",
@@ -45,7 +47,9 @@ export default function RootLayout({
       lang="en"
       className={`${inter.variable} ${jetbrainsMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-background text-foreground">
+      <body className="min-h-full flex flex-col bg-background text-foreground overflow-x-hidden">
+        <CustomCursor />
+        <AnimatedBackground />
         {children}
         <Analytics />
       </body>

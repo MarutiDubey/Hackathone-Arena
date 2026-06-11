@@ -59,76 +59,107 @@
 
 /* ─── Light mode (Primary Theme) ─── */
 :root {
-  --background: oklch(0.985 0.002 60); /* Warm paper off-white #FAF9F6 */
-  --foreground: oklch(0.15 0.002 60);  /* Dark ink black #1E1E1E */
-  --card: oklch(1 0 0);                 /* Pure white #FFFFFF */
-  --card-foreground: oklch(0.15 0.002 60);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.15 0.002 60);
-  --primary: oklch(0.15 0.002 60);     /* Solid black/dark primary */
-  --primary-foreground: oklch(0.985 0.002 60);
-  --secondary: oklch(0.96 0.002 60);   /* Muted paper gray */
-  --secondary-foreground: oklch(0.15 0.002 60);
-  --muted: oklch(0.95 0.002 60);
-  --muted-foreground: oklch(0.45 0.002 60);
-  --accent: oklch(0.95 0.002 60);
-  --accent-foreground: oklch(0.15 0.002 60);
+  --background: oklch(0.14 0.005 285);  /* Deep dark #050505 equivalent */
+  --foreground: oklch(0.985 0.002 60); /* White/Off-white */
+  --card: oklch(0.18 0.005 285);        /* Slightly lighter dark */
+  --card-foreground: oklch(0.985 0.002 60);
+  --popover: oklch(0.18 0.005 285);
+  --popover-foreground: oklch(0.985 0.002 60);
+  --primary: oklch(0.985 0.002 60);    /* White primary */
+  --primary-foreground: oklch(0.14 0.005 285);
+  --secondary: oklch(0.22 0.005 285);  /* Muted dark gray */
+  --secondary-foreground: oklch(0.985 0.002 60);
+  --muted: oklch(0.22 0.005 285);
+  --muted-foreground: oklch(0.7 0.005 285);
+  --accent: oklch(0.25 0.005 285);
+  --accent-foreground: oklch(0.985 0.002 60);
   --destructive: oklch(0.6 0.18 20);   /* Editorial Red */
-  --border: oklch(0.92 0.002 60);      /* Crisp gray border #E5E5E2 */
-  --input: oklch(0.92 0.002 60);
-  --ring: oklch(0.5 0.002 60);
+  --border: oklch(0.25 0.005 285);     /* Dark border */
+  --input: oklch(0.25 0.005 285);
+  --ring: oklch(0.5 0.005 285);
   --radius: 0.5rem;
-  --sidebar: oklch(0.985 0.002 60);
-  --sidebar-foreground: oklch(0.15 0.002 60);
-  --sidebar-primary: oklch(0.15 0.002 60);
-  --sidebar-primary-foreground: oklch(0.985 0.002 60);
-  --sidebar-accent: oklch(0.95 0.002 60);
-  --sidebar-accent-foreground: oklch(0.15 0.002 60);
-  --sidebar-border: oklch(0.92 0.002 60);
-  --sidebar-ring: oklch(0.5 0.002 60);
+  --sidebar: oklch(0.14 0.005 285);
+  --sidebar-foreground: oklch(0.985 0.002 60);
+  --sidebar-primary: oklch(0.985 0.002 60);
+  --sidebar-primary-foreground: oklch(0.14 0.005 285);
+  --sidebar-accent: oklch(0.22 0.005 285);
+  --sidebar-accent-foreground: oklch(0.985 0.002 60);
+  --sidebar-border: oklch(0.25 0.005 285);
+  --sidebar-ring: oklch(0.5 0.005 285);
 }
 
-/* ─── Map Dark Mode classes to Light Theme as well to enforce light mode ─── */
 .dark {
-  --background: oklch(0.985 0.002 60);
-  --foreground: oklch(0.15 0.002 60);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.15 0.002 60);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.15 0.002 60);
-  --primary: oklch(0.15 0.002 60);
-  --primary-foreground: oklch(0.985 0.002 60);
-  --secondary: oklch(0.96 0.002 60);
-  --secondary-foreground: oklch(0.15 0.002 60);
-  --muted: oklch(0.95 0.002 60);
-  --muted-foreground: oklch(0.45 0.002 60);
-  --accent: oklch(0.95 0.002 60);
-  --accent-foreground: oklch(0.15 0.002 60);
+  --background: oklch(0.14 0.005 285);
+  --foreground: oklch(0.985 0.002 60);
+  --card: oklch(0.18 0.005 285);
+  --card-foreground: oklch(0.985 0.002 60);
+  --popover: oklch(0.18 0.005 285);
+  --popover-foreground: oklch(0.985 0.002 60);
+  --primary: oklch(0.985 0.002 60);
+  --primary-foreground: oklch(0.14 0.005 285);
+  --secondary: oklch(0.22 0.005 285);
+  --secondary-foreground: oklch(0.985 0.002 60);
+  --muted: oklch(0.22 0.005 285);
+  --muted-foreground: oklch(0.7 0.005 285);
+  --accent: oklch(0.25 0.005 285);
+  --accent-foreground: oklch(0.985 0.002 60);
   --destructive: oklch(0.6 0.18 20);
-  --border: oklch(0.92 0.002 60);
-  --input: oklch(0.92 0.002 60);
-  --ring: oklch(0.5 0.002 60);
-  --sidebar: oklch(0.985 0.002 60);
-  --sidebar-foreground: oklch(0.15 0.002 60);
-  --sidebar-primary: oklch(0.15 0.002 60);
-  --sidebar-primary-foreground: oklch(0.985 0.002 60);
-  --sidebar-accent: oklch(0.95 0.002 60);
-  --sidebar-accent-foreground: oklch(0.15 0.002 60);
-  --sidebar-border: oklch(0.92 0.002 60);
-  --sidebar-ring: oklch(0.5 0.002 60);
+  --border: oklch(0.25 0.005 285);
+  --input: oklch(0.25 0.005 285);
+  --ring: oklch(0.5 0.005 285);
+  --sidebar: oklch(0.14 0.005 285);
+  --sidebar-foreground: oklch(0.985 0.002 60);
+  --sidebar-primary: oklch(0.985 0.002 60);
+  --sidebar-primary-foreground: oklch(0.14 0.005 285);
+  --sidebar-accent: oklch(0.22 0.005 285);
+  --sidebar-accent-foreground: oklch(0.985 0.002 60);
+  --sidebar-border: oklch(0.25 0.005 285);
+  --sidebar-ring: oklch(0.5 0.005 285);
 }
 
 /* ─── Base Layer ─── */
 @layer base {
   * {
     @apply border-border outline-ring/50;
+    cursor: none !important;
   }
   body {
-    @apply bg-background text-foreground selection:bg-neutral-200 selection:text-neutral-900;
+    @apply bg-background text-foreground selection:bg-neutral-700 selection:text-white;
   }
   html {
     @apply font-sans;
   }
+}
+
+/* ─── Intelligent Glassmorphism Mapping ─── */
+/* Force light-mode Tailwind utilities to adapt to the dark theme */
+.bg-white, .bg-neutral-50, .bg-neutral-100 {
+  background-color: rgba(255, 255, 255, 0.05) !important;
+  backdrop-filter: blur(12px) !important;
+}
+
+.text-neutral-900, .text-neutral-800, .text-neutral-700, .text-black, .text-neutral-950 {
+  color: #f5f5f5 !important;
+}
+
+.text-neutral-600, .text-neutral-500 {
+  color: #a3a3a3 !important;
+}
+
+.border-neutral-200, .border-neutral-300, .border-neutral-100 {
+  border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.bg-neutral-200, .bg-neutral-300 {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.hover\:bg-neutral-100:hover, .hover\:bg-neutral-50:hover, .hover\:bg-neutral-200:hover {
+  background-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+.bg-white\/50, .bg-white\/80, .bg-white\/90 {
+  background-color: rgba(255, 255, 255, 0.07) !important;
 }
 
 /* ─── Paper Terminal Utility Classes ─── */

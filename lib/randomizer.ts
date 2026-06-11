@@ -1,5 +1,5 @@
 /**
- * @file Randomizer utilities for The Hackathon Simulator
+ * @file Randomizer utilities for The Hackathon Arena
  * @description Helper functions for introducing controlled randomness into
  * the game — from shuffling arrays to rolling for random events.
  */
