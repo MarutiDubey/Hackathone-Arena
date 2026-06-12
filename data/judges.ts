@@ -14,7 +14,7 @@ export const JUDGES: Judge[] = [
     id: 'judge-builder',
     name: 'Manthan Dubey',
     avatar: '🔥',
-    avatarImage: '/avatars/uday.png',
+    avatarImage: '/avatars/manthan.png',
     title: 'The Developer',
     expertise: ['MVP Scoping', 'Rapid Prototyping', 'EdTech Products', 'User Validation', 'Product Practicality'],
     personality: 'technical',

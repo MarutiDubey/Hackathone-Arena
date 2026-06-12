@@ -5,6 +5,8 @@
 ### Build. Ship. Survive.
 
 *A gamified, turn-based hackathon experience, from team assembly to final judging, built entirely in the browser.*
+<br/>
+**Original Concept and Development by Manthan Dubey**
 
 [![Next.js](https://img.shields.io/badge/Next.js-16-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react)](https://react.dev/)
@@ -21,7 +23,7 @@
 
 <br/>
 
-[**Play Now**](#getting-started) | [**Documentation**](#architecture) | [**Report Bug**](https://github.com/udaysharmadev/The-Hackathon-Simulator/issues) | [**Request Feature**](https://github.com/udaysharmadev/The-Hackathon-Simulator/issues)
+[**Play Now**](#getting-started) | [**Documentation**](#architecture) | [**Report Bug**](https://github.com/MarutiDubey/HackThone-Arena/issues) | [**Request Feature**](https://github.com/MarutiDubey/HackThone-Arena/issues)
 
 </div>
 
@@ -398,8 +400,8 @@ The-Hackathon-Simulator/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/udaysharmadev/The-Hackathon-Simulator.git
-   cd The-Hackathon-Simulator
+   git clone https://github.com/MarutiDubey/HackThone-Arena.git
+   cd HackThone-Arena
    ```
 
 2. Install dependencies:
@@ -438,7 +440,7 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 <div align="center">
 
-### Built with care by the Hackathon Arena Team
+### Built with care by Manthan Dubey
 
 **[Back to Top](#hackathon-arena)**
 
