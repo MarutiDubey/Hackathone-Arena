@@ -67,7 +67,7 @@ export const CustomCursor = () => {
         <>
           {/* Main trailing cursor */}
           <motion.div
-            className="fixed top-0 left-0 w-8 h-8 rounded-full border border-neutral-300 pointer-events-none z-[9999] mix-blend-difference flex items-center justify-center"
+            className="fixed top-0 left-0 w-8 h-8 rounded-full border border-white pointer-events-none z-[9999] mix-blend-difference flex items-center justify-center"
             style={{
               x: cursorXSpring,
               y: cursorYSpring,

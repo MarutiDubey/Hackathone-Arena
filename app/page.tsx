@@ -21,6 +21,7 @@ import { PROBLEMS } from "@/data/problems";
 import { JUDGES } from "@/data/judges";
 import { TECH_POOL } from "@/data/techItems";
 import { Magnetic } from "@/components/ui/Magnetic";
+import { AnimatedBackground } from "@/components/ui/AnimatedBackground";
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -126,7 +127,8 @@ export default function LandingPage() {
   const y2 = useTransform(scrollYProgress, [0, 1], [0, 50]);
 
   return (
-    <div className="relative min-h-screen flex flex-col overflow-x-hidden bg-transparent text-neutral-100 font-sans selection:bg-neutral-800 selection:text-white">
+    <div className="relative min-h-screen flex flex-col overflow-x-hidden bg-[#050505] text-neutral-100 font-sans selection:bg-neutral-800 selection:text-white">
+      <AnimatedBackground />
 
       {/* Navigation Header */}
       <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 md:px-12 py-5 backdrop-blur-md bg-[#050505]/40 border-b border-white/5 select-none transition-all duration-300">
