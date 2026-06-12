@@ -85,7 +85,7 @@ export default function GameLayout({ children }: GameLayoutProps) {
                 {i > 0 && (
                   <div
                     className={`mx-1 h-px w-4 transition-colors ${
-                      isCompleted ? 'bg-neutral-800/40' : 'bg-neutral-200'
+                      isCompleted ? 'bg-neutral-800/40' : 'bg-neutral-400/60'
                     }`}
                   />
                 )}
@@ -97,7 +97,7 @@ export default function GameLayout({ children }: GameLayoutProps) {
                       ? 'bg-neutral-900 text-neutral-100 border border-neutral-900 ring-1 ring-neutral-900 focus-visible:ring-2 focus-visible:ring-neutral-900'
                       : isCompleted
                         ? 'bg-neutral-100 text-neutral-600 border border-neutral-200'
-                        : 'opacity-40 bg-transparent text-neutral-400 border border-transparent'
+                        : 'bg-neutral-300 text-neutral-500 border border-neutral-400 opacity-70'
                   }
                 >
                   {p.label}
@@ -129,7 +129,7 @@ export default function GameLayout({ children }: GameLayoutProps) {
                       ? 'bg-neutral-900 text-neutral-100 border border-neutral-900 ring-1 ring-neutral-900'
                       : isCompleted
                         ? 'bg-neutral-100 text-neutral-600 border border-neutral-200 opacity-60'
-                        : 'opacity-30 bg-transparent text-neutral-400 border border-transparent'
+                        : 'bg-neutral-300 text-neutral-500 border border-neutral-400 opacity-70'
                   }`}
                 >
                   {p.label}
