@@ -400,7 +400,7 @@ The-Hackathon-Simulator/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/MarutiDubey/HackThone-Arena.git
+   git clone https://github.com/MarutiDubey/Hackathone-Arena.git
    cd HackThone-Arena
    ```
 
