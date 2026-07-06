@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import { motion, useScroll, useTransform } from "framer-motion";
+import { motion, useScroll, useTransform, Variants } from "framer-motion";
 import {
   Terminal,
   Clock,
@@ -23,7 +23,7 @@ import { TECH_POOL } from "@/data/techItems";
 import { Magnetic } from "@/components/ui/Magnetic";
 import { AnimatedBackground } from "@/components/ui/AnimatedBackground";
 
-const containerVariants = {
+const containerVariants: Variants = {
   hidden: { opacity: 0 },
   visible: {
     opacity: 1,
@@ -31,7 +31,7 @@ const containerVariants = {
   },
 };
 
-const itemVariants = {
+const itemVariants: Variants = {
   hidden: { opacity: 0, y: 20 },
   visible: {
     opacity: 1,
