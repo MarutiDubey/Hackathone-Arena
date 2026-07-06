@@ -22,8 +22,8 @@
 > Hackathon arena drops you into a timed, pressure-cooker scenario where every decision, from your team configuration to your elevator pitch, determines whether you walk away with the trophy or crash at compile time.
 
 <br/>
-[**Demo**](https://hackathone-arena.vercel.app/)
-[**Play Now**](#getting-started) | [**Documentation**](#architecture) | [**Report Bug**](https://github.com/MarutiDubey/HackThone-Arena/issues) | [**Request Feature**](https://github.com/MarutiDubey/HackThone-Arena/issues)
+
+[**Demo**](https://hackathone-arena.vercel.app/) | [**Play Now**](#getting-started) | [**Documentation**](#architecture) | [**Report Bug**](https://github.com/MarutiDubey/HackThone-Arena/issues) | [**Request Feature**](https://github.com/MarutiDubey/HackThone-Arena/issues)
 
 </div>
 
